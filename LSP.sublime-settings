@@ -1,0 +1,48 @@
+{
+  "log_debug": false,
+  "log_payloads": false,
+  "clients":
+  {
+    "sorbet": {
+      "command":
+      [
+        "bundle", "exec", "srb", "tc", "--lsp", "--disable-watchman"
+      ],
+      "enabled": true,
+      "languageId": "ruby",
+      "scopes":
+      [
+        "source.ruby",
+        "source.ruby.rails"
+      ],
+      "syntaxes":
+      [
+        "Packages/Ruby/Ruby.sublime-syntax",
+        "Packages/Rails/Ruby on Rails.sublime-syntax",
+        "Packages/Rails/HTML (Rails).sublime-syntax"
+      ]
+    },
+    "ruby":
+    {
+      "command":
+      [
+        "/Users/tom/.rbenv/shims/solargraph",
+        "stdio",
+      ],
+      "enabled": true,
+      "languageId": "ruby",
+      "scopes":
+      [
+        "source.ruby",
+        "source.ruby.rails"
+      ],
+      "syntaxes":
+      [
+        "Packages/Ruby/Ruby.sublime-syntax",
+        "Packages/Rails/Ruby on Rails.sublime-syntax",
+        "Packages/Rails/HTML (Rails).sublime-syntax"
+      ],
+      "tcp_port": false
+    }
+  }
+}

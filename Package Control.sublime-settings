@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Auto Close HTML Tags",
+		"Babel",
+		"Babel Snippets",
+		"Copy Filepath With Line Numbers",
+		"Copy Relative Path",
+		"DashDoc",
+		"Emmet",
+		"ERB Autocomplete",
+		"ESLint",
+		"ESLint-Formatter",
+		"Lodash Completions",
+		"LSP",
+		"Package Control",
+		"Pretty JSON",
+		"Ruby Block Converter",
+		"SCSS",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-rubocop",
+		"TypeScript",
+		"TypeScript Syntax"
+	]
+}
